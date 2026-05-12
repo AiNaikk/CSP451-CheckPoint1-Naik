@@ -1,72 +1,78 @@
-# CSP451 CheckPoint 1 - Version Control with Git and GitHub
+# CSP451 CheckPoint 1 Project
 
-A static web project created for CSP451 (DevOps and Cloud-Adjacent Topics) at Seneca Polytechnic. This project demonstrates the fundamentals of Git version control, GitHub repository management, and professional development workflows.
+## Project Title
+CSP451 Version Control and GitHub CheckPoint 1
 
 ## Description
+This project demonstrates proficiency in Git version control and GitHub repository management. 
+It includes a basic web application with HTML, CSS, and JavaScript, showcasing proper Git 
+workflows, commit conventions, and branching strategies.
 
-This project is a simple static website built to practice:
-- Local Git repository setup and commit history
-- GitHub repository creation and management
-- Feature branch workflow with pull requests
-- Professional Markdown documentation
-
-**Technologies used:** HTML5, CSS3, JavaScript, Git, GitHub CLI
-
-## Installation
+## Installation Instructions
 
 ### Prerequisites
-- A web browser (Chrome, Firefox, Edge, or Safari)
-- Git installed on your machine
-- GitHub CLI (`gh`) installed
+- Git installed on your system
+- A modern web browser
+- GitHub account
 
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/AiNaikk/CSP451-CheckPoint1-Naik.git
+   git clone https://github.com/DC-Seneca/CK1.git
+   cd CK1/csp451-checkpoint1
    ```
-2. Navigate into the project folder:
+
+2. Navigate to the project directory:
    ```bash
-   cd CSP451-CheckPoint1-Naik
+   cd csp451-checkpoint1
    ```
-3. Open `index.html` in your browser — no server required.
 
-## Usage
+3. Open `index.html` in your web browser
 
-- Open `index.html` directly in any browser to view the page.
-- Useful Git commands while working on this project:
-  ```bash
-  git status                          # see what files changed
-  git log --oneline --graph --all     # view commit history
-  git checkout -b feature/branch-name # create a new feature branch
-  git push -u origin feature/branch-name # push branch to GitHub
-  ```
+## Usage Examples
 
-## Contributing
+### Viewing the Project
+Simply open `index.html` in any web browser. The page will display a welcome message 
+and demonstrate basic HTML/CSS/JavaScript integration.
 
-1. Fork this repository or create a feature branch:
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
-2. Make your changes and commit using **Conventional Commits** format:
-   ```bash
-   git commit -m "feat: describe what you added"
-   git commit -m "fix: describe what you fixed"
-   git commit -m "docs: describe documentation changes"
-   ```
-3. Push your branch and open a Pull Request on GitHub.
-4. Wait for review and approval before merging.
+### Checking Git History
+```bash
+git log --oneline
+```
 
-**Commit types:** `feat` `fix` `docs` `style` `refactor` `test` `chore`
+### Viewing File Changes
+```bash
+git diff
+```
+
+## Contributing Guidelines
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Make your changes following the commit message convention:
+   - `feat:` for new features
+   - `fix:` for bug fixes
+   - `docs:` for documentation
+   - `style:` for formatting
+   - `refactor:` for code refactoring
+4. Commit your changes (`git commit -m 'feat: add amazing feature'`)
+5. Push to the branch (`git push origin feature/amazing-feature`)
+6. Open a Pull Request
 
 ## License
 
-MIT License
+This project is created for educational purposes as part of CSP451 coursework at Seneca College.
+
+Licensed under the MIT License.
 
 Copyright (c) 2026 Abdullah Naik
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED.
- 
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.

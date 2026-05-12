@@ -1,20 +1,12 @@
-// CSP451 CheckPoint 1 - script.js
+// CSP451 CheckPoint 1 - JavaScript File
+console.log('Welcome to CSP451 CheckPoint 1!');
+console.log('This project demonstrates Git version control.');
 
-console.log("CSP451 CheckPoint 1 loaded successfully.");
-
-// Function to greet the user on page load
-function displayWelcomeMessage() {
-  const main = document.querySelector("main");
-  if (main) {
-    const message = document.createElement("p");
-    message.textContent = "JavaScript is running on this page.";
-    message.style.textAlign = "center";
-    message.style.color = "#1a1a2e";
-    message.style.fontWeight = "bold";
-    message.style.marginTop = "1rem";
-    main.appendChild(message);
-  }
+// Function to display current date
+function displayDate() {
+    const now = new Date();
+    console.log('Current date:', now.toLocaleDateString());
 }
 
 // Call the function
-displayWelcomeMessage();
+displayDate();
